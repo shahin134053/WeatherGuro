@@ -1,0 +1,365 @@
+export const bn = {
+  // App Header & Branding
+  appName: 'ওয়েদারগ্লোব',
+  appTagline: 'বাংলাদেশের বিশ্বস্ত আবহাওয়া ট্র্যাকার',
+  launchCountryLabel: 'প্রাথমিক এলাকা: বাংলাদেশ',
+  globalCoverageBadge: 'গ্লোবাল নেটওয়ার্ক',
+  bmdOfficialBadge: 'বাংলাদেশ আবহাওয়া অধিদপ্তর (BMD) সংযুক্ত',
+
+  // Navigation
+  navHome: 'হোম',
+  navLocation: 'আমার অবস্থান',
+  navSearch: 'অনুসন্ধান',
+  navHourly: 'ঘণ্টাভিত্তিক',
+  nav7Days: '৭ দিনের পূর্বাভাস',
+  navMap: 'আবহাওয়া ম্যাপ',
+  navAlerts: 'সতর্কবার্তা',
+  navSaved: 'সংরক্ষিত শহর',
+  navSettings: 'সেটিংস',
+  navAbout: 'অ্যাপ পরিচিতি',
+
+  // Splash & Onboarding
+  splashWelcome: 'ওয়েদারগ্লোবে স্বাগতম',
+  splashSubtext: 'বাংলাদেশের জন্য প্রস্তুতকৃত গ্লোবাল ওয়েদার প্ল্যাটফর্ম',
+  splashLoading: 'লাইভ আবহাওয়া তথ্য লোড হচ্ছে...',
+  selectLanguageTitle: 'অ্যাপ্লিকেশনের ভাষা নির্বাচন করুন',
+  selectLanguageSub: 'বিশ্বব্যাপী ৫০টি সমর্থিত ভাষার মধ্যে বেছে নিন',
+  searchLanguagePlaceholder: 'ভাষা খুঁজুন (যেমন: বাংলা, English, العربية)...',
+  continueBtn: 'ড্যাশবোর্ডে প্রবেশ করুন',
+
+  // Home Dashboard & Header Buttons
+  developerBtn: 'ডেভেলপার',
+  developerTitle: 'ডেভেলপার তথ্য',
+  developerName: 'মোঃ শাহীন',
+  developerRole: 'ফুল স্ট্যাক ওয়েব ও মোবাইল অ্যাপ ডেভেলপার',
+  developerEmail: 'shahin.prpl@gmail.com',
+  developerLocation: 'ঢাকা, বাংলাদেশ',
+  buyMeACoffee: 'Buy me a Coffee',
+  buyCoffeeSubtitle: 'মোবাইল ব্যাংকিং ও ব্যাংক অ্যাকাউন্টের মাধ্যমে সাপোর্ট প্রদান',
+  supportAndDonation: 'Support & Donation (সহযোগিতা)',
+  officialDeveloperPage: 'অফিসিয়াল ডেভেলপার পেজ',
+  backToHome: 'মূল পেজে ফিরে যান',
+  verifiedAuthor: 'ভেরিফায়েড অটোমেশন ও লিড ইঞ্জিনিয়ার',
+
+  // Developer & Contact Form
+  copyEmail: 'ইমেইল কপি করুন',
+  emailCopied: 'কপি হয়েছে!',
+  directInquiryTitle: 'ডেভেলপারকে সরাসরি বার্তা পাঠান',
+  directInquirySub: 'আপনার প্রতিক্রিয়া, নতুন ফিচারের অনুরোধ বা যে কোনো বিষয়ে সরাসরি ইমেইল পাঠান',
+  subjectLabel: 'বিষয় (Subject)',
+  messageLabel: 'বার্তা (Message)',
+  subjectPlaceholder: 'যেমন: ওয়েদারগ্লোব অ্যাপ প্রতিক্রিয়া',
+  messagePlaceholder: 'আপনার বার্তাটি লিখুন...',
+  openEmailApp: 'ইমেইল অ্যাপে ওপেন করুন',
+  openingEmailClient: '✓ ইমেইল ক্লায়েন্ট খোলা হচ্ছে... ধন্যবাদ!',
+
+  // Buy me a Coffee & Banking Details
+  buyCoffeeTitle: 'Buy me a Coffee (কফি অফার / সাপোর্ট)',
+  buyCoffeeDesc: 'আপনি ওয়েদারগ্লোব অ্যাপের উন্নয়নে সহায়তা করতে মোবাইল ব্যাংকিং বা ব্যাংক ট্রান্সফারের মাধ্যমে কফি অফারের পেমেন্ট পাঠাতে পারেন।',
+  mobileBankingTitle: 'মোবাইল ব্যাংকিং (পার্সোনাল)',
+  bankingAccountsTitle: 'ব্যাংক অ্যাকাউন্ট বিবরণী (বাংলাদেশ)',
+  bkashPersonal: 'বিকাশ পার্সোনাল',
+  nagadPersonal: 'নগদ পার্সোনাল',
+  accountHolder: 'অ্যাকাউন্ট হোল্ডারের নাম',
+  accountNumber: 'অ্যাকাউন্ট নম্বর',
+  bankLocation: 'শাখা / লোকেশন',
+  swiftCode: 'সুইফট কোড (SWIFT)',
+  routingNumber: 'রাউটিং নম্বর',
+  copyNumber: 'নম্বর কপি করুন',
+  numberCopied: 'কপি হয়েছে!',
+
+  // GPS & Language Detection Banner
+  gpsAutoDetectBanner: 'স্বয়ংক্রিয় GPS ট্র্যাক ও মাতৃভাষা রূপান্তর',
+  currentCountry: 'বর্তমান দেশ',
+  motherTongue: 'মাতৃভাষা',
+  trackGpsBtn: 'GPS ট্র্যাক করুন',
+  trackingGps: 'GPS ট্র্যাক হচ্ছে...',
+  profileLabel: 'প্রোফাইল',
+  buyCoffeeBtn: 'Buy Coffee',
+
+  // Dashboard Category Tabs
+  tabOverview: 'আবহাওয়া ও পূর্বাভাস',
+  tabAirQuality: 'বায়ুর মান (AQI)',
+  tabCoastalCyclone: 'উপকূলীয় ও ঘূর্ণিঝড়',
+  tabAgriLifestyle: 'কৃষি ও লাইফস্টাইল',
+
+  // Weather Card Controls
+  voiceBulletin: 'ভয়েস বুলেটিন',
+  stopVoice: 'ভয়েস বন্ধ করুন',
+  setHomeDistrict: 'স্থায়ী হোম জেলা হিসেবে সেট করুন',
+  homeDistrictBadge: 'হোম জেলা',
+  homeDistrictSetMsg: 'স্থায়ী হোম জেলা হিসেবে সেভ করা হয়েছে!',
+  bmdSignalNotice: 'বিএমডি ১-১০ নম্বর সংকেত নির্দেশিকা',
+  offlineReport: 'অফলাইন রিপোর্ট',
+  touristGuide: 'ট্যুরিস্ট গাইড',
+  shareLabel: 'শেয়ার',
+  hourly24Title: '২৪ ঘণ্টার পূর্বাভাস',
+  detailsBtn: 'বিস্তারিত',
+  bdDivisionsTitle: 'বাংলাদেশের বিভাগীয় শহরসমূহ',
+  findBtn: 'খুঁজুন',
+  localAqiTitle: 'আপনার লোকেশনের লাইভ বায়ুর মান (AQI)',
+  localAqiSub: 'ঠিক যে জায়গায় আছেন সেখানকার বাতাসের মান চেক করুন',
+  myAreaAqi: 'আমার এলাকার AQI',
+  locationLabel: 'লোকেশন',
+
+  // Current Location Weather
+  currentLocationWeather: 'বর্তমান অবস্থানের আবহাওয়া',
+  dhakaDivisionShortcuts: 'বাংলাদেশের প্রশাসনিক বিভাগসমূহ',
+  popularCityShortcut: 'জনপ্রিয় স্থান',
+  rainfallSummaryTitle: 'বৃষ্টিপাত ও তাপমাত্রার সংক্ষিপ্ত বিবরণ',
+  todayHighlight: 'আজকের আবহাওয়ার বিশেষ তথ্য',
+  feelsLike: 'অনুভূত তাপমাত্রা',
+  humidity: 'আর্দ্রতা',
+  windSpeed: 'বাতাসের গতি',
+  windDirection: 'বাতাসের দিক',
+  pressure: 'বায়ুমণ্ডলীয় চাপ',
+  uvIndex: 'ইউভি ইনডেক্স',
+  visibility: 'দৃশ্যমানতা',
+  cloudCover: 'মেঘের পরিমাণ',
+  precipitation: 'বৃষ্টিপাত',
+  dewPoint: 'শিশিরাঙ্ক',
+  airQuality: 'বায়ুর মান (AQI)',
+  airQualityGood: 'ভালো (Good)',
+  airQualityModerate: 'সহনীয় (Moderate)',
+  airQualityUnhealthySensitive: 'ঝুঁকিপূর্ণ (Sensitive)',
+  airQualityUnhealthy: 'অস্বাস্থ্যকর (Unhealthy)',
+  airQualityVeryUnhealthy: 'খুবই অস্বাস্থ্যকর',
+  airQualityHazardous: 'অত্যন্ত বিপজ্জনক',
+
+  // Forecast Titles
+  hourlyForecastTitle: '২৪ ঘণ্টার আবহাওয়া পূর্বাভাস',
+  sevenDayForecastTitle: '৭ দিনের বিস্তৃত পূর্বাভাস',
+  precipChance: 'বৃষ্টির সম্ভাবনা',
+  sunriseSunsetTitle: 'সূর্যোদয় ও সূর্যাস্ত',
+  sunrise: 'সূর্যোদয়',
+  sunset: 'সূর্যাস্ত',
+
+  // GPS & Location
+  detectingGps: 'GPS লোকেশন নির্ণয় করা হচ্ছে...',
+  gpsPermissionDenied: 'GPS লোকেশন পারমিশন দেওয়া হয়নি',
+  gpsPermissionDesc: 'স্বয়ংক্রিয় স্থানীয় আবহাওয়া দেখতে জিপিএস অন করুন অথবা ম্যানুয়ালি সার্চ করুন।',
+  useGpsBtn: 'বর্তমান GPS লোকেশন ব্যবহার করুন',
+  manualSearchBtn: 'ম্যানুয়ালি শহর সার্চ করুন',
+
+  // Search Screen
+  searchTitle: 'বিশ্বের যেকোনো শহর খুঁজুন',
+  searchPlaceholder: 'শহরের নাম লিখুন (যেমন: ঢাকা, কক্সবাজার, টোকিও)...',
+  recentSearches: 'সাম্প্রতিক অনুসন্ধান',
+  bangladeshDivisions: 'বাংলাদেশের মূল বিভাগসমূহ',
+  noCityFound: 'কোনো শহর পাওয়া যায়নি। বানানের সঠিকতা যাচাই করুন।',
+  addToFavorites: 'পছন্দের তালিকায় যুক্ত করুন',
+  removeFromFavorites: 'পছন্দের তালিকা থেকে সরান',
+  cityAndDistrictSearchTitle: 'শহর ও জেলা অনুসন্ধান',
+  cityAndDistrictSearchSub: 'বিশ্বের যেকোনো শহর খুঁজুন অথবা বাংলাদেশের ৬৪ জেলার মধ্যে আপনার নিজস্ব হোম জেলা নির্বাচন করুন।',
+  bangladesh64DistrictsTitle: 'বাংলাদেশের ৬৪ জেলা (হোম জেলা নির্বাচন)',
+  homeLabel: 'হোম',
+  setHomeDistrictTooltip: 'ডিফল্ট হোম জেলা হিসাবে সেট করুন',
+  addToFavoritesTooltip: 'পছন্দের তালিকায় সংরক্ষণ করুন',
+
+  // Map Screen
+  mapTitle: 'ইন্টারেক্টিভ গ্লোবাল ওয়েদার ম্যাপ',
+  mapLayerTemp: 'তাপমাত্রা',
+  mapLayerRain: 'বৃষ্টিপাত',
+  mapLayerWind: 'বাতাস',
+  mapLayerClouds: 'মেঘের মানচিত্র',
+  mapCenterBD: 'বাংলাদেশ কেন্দ্র দেখুন',
+  mapSelectLocation: 'ম্যাপের যেকোনো স্থানে ক্লিক করে আবহাওয়া পর্যবেক্ষণ করুন',
+  boundaryDataNotice: 'ন্যাচারাল আর্থ ওপেন লাইসেন্সকৃত ভৌগোলিক উপাত্ত দ্বারা চালিত।',
+
+  // Country System
+  countrySelectorTitle: 'কান্ট্রি সিলেক্টর ও কান্ট্রি ফ্রেমওয়ার্ক',
+  countrySelectorSub: 'ওয়েদারগ্লোবে ৫০টিরও বেশি দেশ সমর্থিত। বাংলাদেশকে প্রাথমিক পূর্ণ-কাভারেজ হিসেবে কনফিগার করা হয়েছে।',
+  fullCoverageNotice: 'পূর্ণ স্থানীয় কাভারেজ ও অফিসিয়াল আবহাওয়া সতর্কবার্তা',
+  globalCoverageNotice: 'স্ট্যান্ডার্ড গ্লোবাল স্যাটেলাইট ও পূর্বাভাস মডেল',
+  globalFilterAll: 'গ্লোবাল (All)',
+  asiaFilter: 'এশিয়া (Asia)',
+  middleEastFilter: 'মিডল ইস্ট (Middle East)',
+  europeFilter: 'ইউরোপ (Europe)',
+  americasFilter: 'আমেরিকা (Americas)',
+  africaFilter: 'আফ্রিকা (Africa)',
+  oceaniaFilter: 'ওশেনিয়া (Oceania)',
+
+  // Alerts Screen
+  alertsTitle: 'জরুরি আবহাওয়া সতর্কবার্তা ও বুলেটিন',
+  officialAlertBadge: 'অফিসিয়াল বার্তা',
+  noActiveAlerts: 'বর্তমানে কোনো বিপদসংকেত বা আশঙ্কাজনক আবহাওয়া সতর্কতা নেই।',
+  noActiveAlertsSub: 'বাংলাদেশের সর্বত্র সামগ্রিক আবহাওয়া স্বাভাবিক অবস্থায় রয়েছে।',
+  affectedRegions: 'প্রভাবিত এলাকা',
+  issuedAt: 'প্রকাশের সময়',
+  expiresAt: 'মেয়াদ উত্তীর্ণের সময়',
+  alertSource: 'সূত্র',
+  alertInstructions: 'জনস্বার্থে নির্দেশিকা',
+
+  // Units & Settings
+  settingsTitle: 'অ্যাপ্লিকেশনের সেটিংস',
+  settingsSubtitle: 'ডার্ক মোড, পরিমাপের একক, হোম জেলা সেটিংস এবং অফলাইন ব্যাকআপ কন্ট্রোল',
+  langSettingsTitle: 'ভাষা নির্বাচন (Language)',
+  unitSettingsTitle: 'পরিমাপের একক',
+  tempUnit: 'তাপমাত্রার একক',
+  windUnit: 'বাতাসের গতির একক',
+  timeFormat: 'সময় ফরম্যাট',
+  timeFormat12: '১২ ঘণ্টা (AM/PM)',
+  timeFormat24: '২৪ ঘণ্টা',
+  themeToggle: 'অ্যাপের থিম মোড',
+  darkModeLabel: 'ডার্ক মোড',
+  lightModeLabel: 'লাইট মোড',
+  defaultHomeDistrictTitle: 'স্থায়ী হোম জেলা (Default Home Location)',
+  changeBtn: 'পরিবর্তন করুন',
+  defaultCityNote: 'অ্যাপ প্রতিবার ওপেন হলে এই জেলার আবহাওয়া দেখাবে',
+  setAsCurrentDistrict: 'বর্তমান জেলা সেট করুন',
+  offlineBackupTitle: 'অফলাইন ব্যাকআপ ডাউনলোড',
+  offlineBackupDesc: 'ইন্টারনেট না থাকলেও আবহাওয়ার বুলেটিন ও ৭ দিনের ডাটা দেখতে আপনার ডিভাইসে ডাউনলোড করে রাখুন।',
+  textBulletinBtn: 'টেক্সট বুলেটিন',
+  jsonDataFileBtn: 'JSON ডাটা ফাইল',
+  phoneInstallStatus: 'ফোন ইনস্টল স্ট্যাটাস',
+  installedMode: 'ইনস্টলড (Installed Mode)',
+  webBrowserMode: 'ওয়েব ব্রাউজার (Web)',
+  developerAndArchTitle: 'ডেভেলপার ও সিস্টেম আর্কিটেকচার ইনফরমেশন',
+  changeLanguageBtn: 'ভাষা পরিবর্তন করুন',
+
+  // Offline & Errors
+  offlineTitle: 'ইন্টারনেট সংযোগ নেই',
+  offlineSub: 'আপনি বর্তমানে অফলাইনে আছেন। ক্যাশকৃত পূর্বের আবহাওয়ার তথ্য দেখানো হচ্ছে।',
+  lastUpdated: 'সর্বশেষ আপডেট',
+  cachedDataWarning: 'অফলাইন ক্যাশকৃত রেকর্ড',
+  retryBtn: 'পুনরায় চেষ্টা করুন',
+
+  // Monetization & Ads
+  adBannerPlaceholder: 'বিজ্ঞাপন প্রদর্শন স্লট (প্রস্তুত - বর্তমানে বন্ধ রাখা হয়েছে)',
+  adFreePremium: 'বিজ্ঞাপনমুক্ত প্রিমিয়াম মোড',
+  disableAdsOption: 'বিজ্ঞাপন বন্ধ করুন',
+
+  // About & Attribution
+  aboutTitle: 'ওয়েদারগ্লোব পরিচিতি',
+  versionLabel: 'অ্যাপ সংস্করণ',
+  dataSourcesTitle: 'তথ্যসূত্র ও কৃতজ্ঞতা স্বীকার',
+  dataSourcesDesc: 'ওপেন-মেটিও আবহাওয়া এপিআই, বাংলাদেশ আবহাওয়া অধিদপ্তর (BMD) এবং ন্যাচারাল আর্থ ভৌগোলিক ডেটাসেট।',
+  privacyTitle: 'গোপনীয়তা ও জিপিএস নীতি',
+  privacyDesc: 'আপনার জিপিএস স্থানাঙ্ক কখনো সংরক্ষিত হয় না বা কোনো বহিরাগত সার্ভারে পাঠানো হয় না। তাৎক্ষণিক আবহাওয়ার পূর্বাভাসের জন্য এটি স্থানীয়ভাবে ব্যবহৃত হয়।',
+  androidPackagingTitle: 'অ্যান্ড্রয়েড প্যাকেজিং ও ভবিষ্যতের পথনকশা',
+  viewAndroidChecklistBtn: 'অ্যান্ড্রয়েড ও প্রোডাকশন ডিপ্লয়মেন্ট চেকলিস্ট দেখুন',
+  closeChecklistBtn: 'চেকলিস্ট বন্ধ করুন',
+
+  // Weather Codes / Conditions
+  weatherClear: 'নির্মল আকাশ',
+  weatherMainlyClear: 'প্রধানত পরিষ্কার',
+  weatherPartlyCloudy: 'আংশিক মেঘলা',
+  weatherOvercast: 'মেঘলা আকাশ',
+  weatherFog: 'কুয়াশাচ্ছন্ন',
+  weatherDrizzle: 'হালকা গুঁড়ি গুঁড়ি বৃষ্টি',
+  weatherRainLight: 'হালকা বৃষ্টি',
+  weatherRainModerate: 'মাঝারি ধরনের বৃষ্টি',
+  weatherRainHeavy: 'ভারী বর্ষণ',
+  weatherThunderstorm: 'বজ্রঝড়সহ বৃষ্টি',
+  weatherSnow: 'তুষারপাত',
+
+  // Days
+  sunDay: 'রবিবার',
+  monDay: 'সোমবার',
+  tueDay: 'মঙ্গলবার',
+  wedDay: 'বুধবার',
+  thuDay: 'বৃহস্পতিবার',
+  friDay: 'শুক্রবার',
+  satDay: 'শনিবার',
+
+  // Quick Feature Services Grid
+  quickFeaturesTitle: 'প্রয়োজনীয় ওয়েদার সার্ভিস ও ফিচারসমূহ',
+  quickFeaturesSub: 'এক ক্লিকেই সব দরকারি পূর্বাভাস, টুলস ও নির্দেশিকা',
+  featHourly: '২৪ ঘণ্টার পূর্বাভাস',
+  feat7Days: '৭ দিনের পূর্বাভাস',
+  featMap: 'ওয়েদার ম্যাপ',
+  featCompare: 'আবহাওয়া তুলনা',
+  featAqi: 'বায়ুর মান (AQI)',
+  featCyclone: 'ঘূর্ণিঝড় ট্র্যাকার',
+  featAgri: 'কৃষি পরামর্শ',
+  featRadar: 'বৃষ্টি ও রোদ রাডার',
+  featPrayer: 'নামাজ ও সূর্য',
+  featBmdSignals: 'সংকেত নির্দেশিকা',
+  featVoice: 'ভয়েস বুলেটিন',
+  featBuyCoffee: 'Buy me a Coffee',
+  featDeveloper: 'ডেভেলপার পেজ',
+  featOfflineReport: 'অফলাইন রিপোর্ট',
+  featLanguage: 'ভাষা পরিবর্তন',
+
+  // Nearby Rain Radar
+  radarTitle: 'কাছাকাছি বৃষ্টি ও রোদ রাডার',
+  radarSub: 'আশপাশের জেলাসমূহের রিয়েল-টাইম পরিস্থিতি স্ক্যানিং',
+  radarRain: 'বৃষ্টিপ্রবণ এলাকা',
+  radarSun: 'রৌদ্রোজ্জ্বল এলাকা',
+  radarCloud: 'মেঘলা এলাকা',
+  radarScan: 'কাছাকাছি রাডার স্ক্যান করা হচ্ছে...',
+  radarNoRain: 'কাছাকাছি কোনো অঞ্চলে বর্তমানে বৃষ্টি সনাক্ত হয়নি।',
+  radarNoSun: 'আশপাশের এলাকায় বর্তমানে মেঘলা পরিবেশ রয়েছে।',
+
+  // Agri & Crops
+  agriTitle: 'কৃষি ও ফসল সুরক্ষা বুলেটিন',
+  agriSub: 'ধান, গম ও শাকসবজি চাষের দৈনিক আবহাওয়াভিত্তিক পরামর্শ',
+  agriHighRainWarning: 'পরবর্তী ৩ দিনে ভারী বৃষ্টির সম্ভাবনা রয়েছে। ধান ও সবজি খেতের পানি নিষ্কাশন নিশ্চিত করুন এবং বালাইনাশক ছিটানো বন্ধ রাখুন।',
+  agriDryAdvice: 'পরবর্তী ৩ দিনে আবহাওয়া প্রধানত শুষ্ক ও রৌদ্রোজ্জ্বল থাকবে। রোপণকৃত ফসলে নিয়মিত হালকা সেচ দিন।',
+  listenAudio: 'ভয়েসে শুনুন',
+  stopAudio: 'থামান',
+
+  // Air Quality Leaderboard
+  aqiRankTitle: 'বাংলাদেশ বায়ুমান র‍্যাংকিং',
+  aqiRankSub: 'দেশের সবচেয়ে পরিচ্ছন্ন ও দূষিত বায়ুর স্থানসমূহের লাইভ তালিকা',
+  cleanestAirLabel: 'সবচেয়ে পরিচ্ছন্ন বাতাস',
+  pollutedAirLabel: 'সবচেয়ে দূষিত বাতাস',
+  dhakaAreasTitle: 'ঢাকা শহরের বিভিন্ন স্থান',
+  dhakaAreasSub: 'ঢাকার বিভিন্ন এলাকার বায়ুদূষণ সূচক (লাইভ)',
+
+  // Coastal & Marine
+  marineTitle: 'উপকূলীয় সমুদ্র ও সৈকত পরিস্থিতি',
+  marineSub: 'ঢেউয়ের উচ্চতা, পানির তাপমাত্রা ও পর্যটন সতর্কতা',
+  waveHeightLabel: 'ঢেউয়ের উচ্চতা',
+  waterTempLabel: 'পানির তাপমাত্রা',
+  seaConditionNormal: 'স্বাভাবিক ও শান্ত',
+  seaConditionRough: 'উত্তাল সমুদ্র - সতর্কতা',
+
+  // Sun & Prayer
+  prayerTitle: 'সূর্য, চাঁদ ও নামাজের সময়সূচি',
+  prayerSub: 'আপনার লোকেশনের ওপর ভিত্তি করে প্রস্তুতকৃত সঠিক সময়সূচি',
+  fajrLabel: 'ফজর',
+  dhuhrLabel: 'জোহর',
+  asrLabel: 'আসর',
+  maghribLabel: 'মাগরিব',
+  ishaLabel: 'এশা',
+  sunriseLabel: 'সূর্যোদয়',
+  sunsetLabel: 'সূর্যাস্ত',
+
+  // Tourist Guide
+  touristGuideTitle: 'পর্যটন স্পট আবহাওয়া ও ভ্রমণ গাইড',
+  touristGuideSub: 'সাজেক, কক্সবাজার, শ্রীমঙ্গল ও সুন্দরবন ভ্রমণ পূর্বাভাস',
+  touristGuideBadge: 'ট্যুর গাইড',
+  touristTravelConditionGood: 'ভ্রমণের জন্য চমৎকার পরিবেশ (৯৫% স্কোর)',
+
+  // Seasonal Agri Calendar
+  agriCalendarTitle: 'ঋতুভিত্তিক কৃষি ও শস্য ক্যালেন্ডার',
+  agriCalendarSub: 'বাংলা ৬ ঋতু অনুযায়ী কৃষকের কাজের পূর্বাভাস',
+
+  // Climate History
+  climateHistoryTitle: 'ঐতিহাসিক আবহাওয়া রেকর্ড ও চরম মান',
+  climateHistorySub: 'বাংলাদেশের সর্বকালের সর্বোচ্চ ও সর্বনিম্ন তাপমাত্রা রেকর্ডসমূহ',
+  highestTempRecord: 'সর্বোচ্চ রেকর্ড তাপমাত্রা',
+  lowestTempRecord: 'সর্বনিম্ন রেকর্ড তাপমাত্রা',
+  highestTempLocation: 'রাজশাহী জেলা (১৯৭২)',
+  lowestTempLocation: 'তেঁতুলিয়া, পঞ্চগড় (২০১৮)',
+
+  // BMD Signal Modal
+  bmdSignalsModalTitle: 'BMD সমুদ্রবন্দর সতর্কসংকেত গাইড (১-১০ নম্বর সংকেত)',
+  bmdSignalsModalSub: 'বাংলাদেশ আবহাওয়া অধিদপ্তর নির্দেশিকা',
+
+  // Weather voice
+  voiceBroadcastDesc: 'আবহাওয়ার অডিও বুলেটিন',
+  voiceBroadcastBtn: 'ভয়েসে শুনুন',
+
+  // App Icon Download
+  downloadAppIconTitle: 'অ্যাপস আইকন বা লোগো ডাউনলোড করুন',
+  downloadAppIconDesc: 'অফিসিয়াল ওয়েদারগ্লোব লোগো ফাইলটি পিএনজি (PNG) বা এসভিজি (SVG) ফরম্যাটে ডাউনলোড করুন',
+  downloadPngBtn: 'পিএনজি (PNG) আইকন ডাউনলোড',
+  downloadSvgBtn: 'এসভিজি (SVG) ভেক্টর ডাউনলোড',
+  // Theme Colors
+  themeColorsTitle: 'অ্যাপস থিম কালার (১০টি থিম)',
+  themeColorsDesc: 'আপনার পছন্দমতো যেকোনো থিম কালার সিলেক্ট করে ফুল অ্যাপসের ইউআই কাস্টমাইজ করুন',
+};
+
+

@@ -1,0 +1,38 @@
+{
+  "id": "/",
+  "short_name": "WeatherGuru",
+  "name": "WeatherGuru Gold — ওয়েদার গুরু গোল্ড",
+  "description": "WeatherGuru Gold — বাংলাদেশ ও আন্তর্জাতিক আবহাওয়া পূর্বাভাস, লাইভ অডিও নোটিফিকেশন, বিপদ সংকেত ও কৃষি আবহাওয়া প্ল্যাটফর্ম।",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    }
+  ]
+}

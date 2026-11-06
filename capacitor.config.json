@@ -1,0 +1,9 @@
+{
+  "appId": "com.weatherguru.gold",
+  "appName": "WeatherGuru Gold",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

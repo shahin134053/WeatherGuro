@@ -1,0 +1,365 @@
+export const en = {
+  // App Header & Branding
+  appName: 'WeatherGlobe',
+  appTagline: 'Bangladesh-First Global Weather App',
+  launchCountryLabel: 'Launch Region: Bangladesh',
+  globalCoverageBadge: 'Global Network',
+  bmdOfficialBadge: 'Bangladesh Meteorological Dept. (BMD) Integration',
+
+  // Navigation
+  navHome: 'Home',
+  navLocation: 'My Location',
+  navSearch: 'Search',
+  navHourly: 'Hourly',
+  nav7Days: '7-Day Forecast',
+  navMap: 'Weather Map',
+  navAlerts: 'Alerts',
+  navSaved: 'Saved Cities',
+  navSettings: 'Settings',
+  navAbout: 'About',
+
+  // Splash & Onboarding
+  splashWelcome: 'Welcome to WeatherGlobe',
+  splashSubtext: 'Global Weather Platform Initialized for Bangladesh',
+  splashLoading: 'Loading live weather data...',
+  selectLanguageTitle: 'Select Application Language',
+  selectLanguageSub: 'Choose from 50 supported languages worldwide',
+  searchLanguagePlaceholder: 'Search language (e.g. Bengali, English, Arabic)...',
+  continueBtn: 'Continue to Dashboard',
+
+  // Home Dashboard & Header Buttons
+  developerBtn: 'Developer',
+  developerTitle: 'Developer Info',
+  developerName: 'MD Shahin',
+  developerRole: 'Full Stack Web & Mobile App Developer',
+  developerEmail: 'shahin.prpl@gmail.com',
+  developerLocation: 'Dhaka, Bangladesh',
+  buyMeACoffee: 'Buy me a Coffee',
+  buyCoffeeSubtitle: 'Support via Mobile Banking & Bank Accounts',
+  supportAndDonation: 'Support & Donation',
+  officialDeveloperPage: 'Official Developer Page',
+  backToHome: 'Back to Home Page',
+  verifiedAuthor: 'Verified Author & Lead Engineer',
+
+  // Developer & Contact Form
+  copyEmail: 'Copy Email',
+  emailCopied: 'Copied!',
+  directInquiryTitle: 'Send Direct Message to Developer',
+  directInquirySub: 'Send your feedback, feature requests, or collaboration inquiries',
+  subjectLabel: 'Subject',
+  messageLabel: 'Message',
+  subjectPlaceholder: 'e.g., WeatherGlobe App Feedback',
+  messagePlaceholder: 'Type your message here...',
+  openEmailApp: 'Open in Email App',
+  openingEmailClient: '✓ Opening email client... Thank you!',
+
+  // Buy me a Coffee & Banking Details
+  buyCoffeeTitle: 'Buy me a Coffee (Offer Payment / Support)',
+  buyCoffeeDesc: 'You can support the development of WeatherGlobe by offering a coffee contribution via Mobile Banking or Bank Transfer.',
+  mobileBankingTitle: 'Mobile Banking (Personal)',
+  bankingAccountsTitle: 'Bank Accounts (Bangladesh)',
+  bkashPersonal: 'bKash Personal',
+  nagadPersonal: 'Nagad Personal',
+  accountHolder: 'Account Holder',
+  accountNumber: 'Account Number',
+  bankLocation: 'Branch / Location',
+  swiftCode: 'SWIFT Code',
+  routingNumber: 'Routing Number',
+  copyNumber: 'Copy Number',
+  numberCopied: 'Copied!',
+
+  // GPS & Language Detection Banner
+  gpsAutoDetectBanner: 'Auto GPS Track & Native Language Detection',
+  currentCountry: 'Current Country',
+  motherTongue: 'Native Language',
+  trackGpsBtn: 'Track GPS',
+  trackingGps: 'Tracking GPS...',
+  profileLabel: 'Profile',
+  buyCoffeeBtn: 'Buy Coffee',
+
+  // Dashboard Category Tabs
+  tabOverview: 'Weather & Forecast',
+  tabAirQuality: 'Air Quality (AQI)',
+  tabCoastalCyclone: 'Marine & Cyclone',
+  tabAgriLifestyle: 'Agri & Lifestyle',
+
+  // Weather Card Controls
+  voiceBulletin: 'Voice Bulletin',
+  stopVoice: 'Stop Voice',
+  setHomeDistrict: 'Set Permanent Home District',
+  homeDistrictBadge: 'Home District',
+  homeDistrictSetMsg: 'Set as permanent home district!',
+  bmdSignalNotice: 'BMD 1-10 Warning Signals',
+  offlineReport: 'Offline Report',
+  touristGuide: 'Tourist Guide',
+  shareLabel: 'Share',
+  hourly24Title: '24-Hour Forecast',
+  detailsBtn: 'Details',
+  bdDivisionsTitle: 'Bangladesh Regional Divisions',
+  findBtn: 'Search',
+  localAqiTitle: 'Live Local Air Quality at Your Location',
+  localAqiSub: 'Check live air quality at your exact GPS coordinates',
+  myAreaAqi: 'My Area AQI',
+  locationLabel: 'Location',
+
+  // Current Location Weather
+  currentLocationWeather: 'Current Location Weather',
+  dhakaDivisionShortcuts: 'Bangladesh Regional Divisions',
+  popularCityShortcut: 'Popular Location',
+  rainfallSummaryTitle: 'Rainfall & Temperature Summary',
+  todayHighlight: "Today's Weather Highlights",
+  feelsLike: 'Feels Like',
+  humidity: 'Humidity',
+  windSpeed: 'Wind Speed',
+  windDirection: 'Wind Direction',
+  pressure: 'Pressure',
+  uvIndex: 'UV Index',
+  visibility: 'Visibility',
+  cloudCover: 'Cloud Cover',
+  precipitation: 'Precipitation',
+  dewPoint: 'Dew Point',
+  airQuality: 'Air Quality (AQI)',
+  airQualityGood: 'Good',
+  airQualityModerate: 'Moderate',
+  airQualityUnhealthySensitive: 'Unhealthy for Sensitive Groups',
+  airQualityUnhealthy: 'Unhealthy',
+  airQualityVeryUnhealthy: 'Very Unhealthy',
+  airQualityHazardous: 'Hazardous',
+
+  // Forecast Titles
+  hourlyForecastTitle: '24-Hour Forecast',
+  sevenDayForecastTitle: '7-Day Extended Forecast',
+  precipChance: 'Chance of Rain',
+  sunriseSunsetTitle: 'Sunrise & Sunset',
+  sunrise: 'Sunrise',
+  sunset: 'Sunset',
+
+  // GPS & Location
+  detectingGps: 'Detecting GPS coordinates...',
+  gpsPermissionDenied: 'GPS Location Permission Denied',
+  gpsPermissionDesc: 'Enable GPS for automatic location weather or search manually from the search tab.',
+  useGpsBtn: 'Use Current GPS Location',
+  manualSearchBtn: 'Search City Manually',
+
+  // Search Screen
+  searchTitle: 'Search Any City Worldwide',
+  searchPlaceholder: "Enter city name (e.g. Dhaka, Cox's Bazar, Tokyo)...",
+  recentSearches: 'Recent Searches',
+  bangladeshDivisions: 'Bangladesh Primary Divisions',
+  noCityFound: 'No matching city found. Please check spelling.',
+  addToFavorites: 'Add to Saved Cities',
+  removeFromFavorites: 'Remove from Saved Cities',
+  cityAndDistrictSearchTitle: 'City & District Search',
+  cityAndDistrictSearchSub: 'Search any city worldwide or select your home district among 64 districts of Bangladesh.',
+  bangladesh64DistrictsTitle: '64 Districts of Bangladesh',
+  homeLabel: 'Home',
+  setHomeDistrictTooltip: 'Set as Default Home District',
+  addToFavoritesTooltip: 'Save to Favorites',
+
+  // Map Screen
+  mapTitle: 'Interactive World Weather Map',
+  mapLayerTemp: 'Temperature',
+  mapLayerRain: 'Precipitation',
+  mapLayerWind: 'Wind Vectors',
+  mapLayerClouds: 'Cloud Overlay',
+  mapCenterBD: 'Bangladesh Center View',
+  mapSelectLocation: 'Click anywhere on the map to inspect weather',
+  boundaryDataNotice: 'Geographic boundaries provided by Natural Earth open licensed dataset.',
+
+  // Country System
+  countrySelectorTitle: 'Country Selector & Expansion Architecture',
+  countrySelectorSub: 'WeatherGlobe supports 50+ countries. Bangladesh is configured with primary full-coverage status.',
+  fullCoverageNotice: 'Full local coverage & official weather warning feed',
+  globalCoverageNotice: 'Standard global satellite & model forecast coverage',
+  globalFilterAll: 'All Regions',
+  asiaFilter: 'Asia',
+  middleEastFilter: 'Middle East',
+  europeFilter: 'Europe',
+  americasFilter: 'Americas',
+  africaFilter: 'Africa',
+  oceaniaFilter: 'Oceania',
+
+  // Alerts Screen
+  alertsTitle: 'Weather Warnings & Official Advisories',
+  officialAlertBadge: 'Official Advisory',
+  noActiveAlerts: 'No active severe weather warnings at this time.',
+  noActiveAlertsSub: 'Weather conditions across Bangladesh are currently normal.',
+  affectedRegions: 'Affected Areas',
+  issuedAt: 'Issued At',
+  expiresAt: 'Expires At',
+  alertSource: 'Source',
+  alertInstructions: 'Public Safety Instructions',
+
+  // Units & Settings
+  settingsTitle: 'Application Settings',
+  settingsSubtitle: 'Dark mode, units, default home location, and offline backup controls',
+  langSettingsTitle: 'Language Selection',
+  unitSettingsTitle: 'Measurement Units',
+  tempUnit: 'Temperature Unit',
+  windUnit: 'Wind Speed Unit',
+  timeFormat: 'Time Format',
+  timeFormat12: '12-Hour (AM/PM)',
+  timeFormat24: '24-Hour',
+  themeToggle: 'App Theme Mode',
+  darkModeLabel: 'Dark Mode',
+  lightModeLabel: 'Light Mode',
+  defaultHomeDistrictTitle: 'Permanent Default Home Location',
+  changeBtn: 'Change',
+  defaultCityNote: 'App will show weather for this district every time it opens',
+  setAsCurrentDistrict: 'Set Current District',
+  offlineBackupTitle: 'Offline Backup Download',
+  offlineBackupDesc: 'Download weather bulletins and 7-day forecast data to your device for offline viewing.',
+  textBulletinBtn: 'Text Bulletin',
+  jsonDataFileBtn: 'JSON Data File',
+  phoneInstallStatus: 'App Install Status',
+  installedMode: 'Installed Mode',
+  webBrowserMode: 'Web Browser',
+  developerAndArchTitle: 'Developer & System Architecture Information',
+  changeLanguageBtn: 'Change Language',
+
+  // Offline & Errors
+  offlineTitle: 'No Internet Connection',
+  offlineSub: 'You are currently offline. Displaying cached weather forecast data.',
+  lastUpdated: 'Last Updated',
+  cachedDataWarning: 'Offline Cached Record',
+  retryBtn: 'Retry Connection',
+
+  // Monetization & Ads
+  adBannerPlaceholder: 'Advertisement Placement Slot (Ready - Currently Disabled)',
+  adFreePremium: 'Ad-Free Premium Mode',
+  disableAdsOption: 'Disable Ads',
+
+  // About & Attribution
+  aboutTitle: 'About WeatherGlobe',
+  versionLabel: 'App Version',
+  dataSourcesTitle: 'Data Sources & Attribution',
+  dataSourcesDesc: 'Open-Meteo Weather API, Bangladesh Meteorological Department (BMD), and Natural Earth Geographic Dataset.',
+  privacyTitle: 'Privacy & Geolocation Policy',
+  privacyDesc: 'Your GPS coordinates are never stored or transmitted to external tracking servers. Location is strictly used locally to query instant weather forecasts.',
+  androidPackagingTitle: 'Android Packaging & Future Roadmap',
+  viewAndroidChecklistBtn: 'View Android & Production Deployment Checklist',
+  closeChecklistBtn: 'Close Checklist',
+
+  // Weather Codes / Conditions
+  weatherClear: 'Clear Sky',
+  weatherMainlyClear: 'Mainly Clear',
+  weatherPartlyCloudy: 'Partly Cloudy',
+  weatherOvercast: 'Overcast',
+  weatherFog: 'Foggy / Hazy',
+  weatherDrizzle: 'Light Drizzle',
+  weatherRainLight: 'Light Rain',
+  weatherRainModerate: 'Moderate Rain',
+  weatherRainHeavy: 'Heavy Downpour',
+  weatherThunderstorm: 'Thunderstorm',
+  weatherSnow: 'Snowfall',
+
+  // Days
+  sunDay: 'Sunday',
+  monDay: 'Monday',
+  tueDay: 'Tuesday',
+  wedDay: 'Wednesday',
+  thuDay: 'Thursday',
+  friDay: 'Friday',
+  satDay: 'Saturday',
+
+  // Quick Feature Services Grid
+  quickFeaturesTitle: 'Featured Weather Services',
+  quickFeaturesSub: 'Direct one-tap access to forecasts, tools & advisories',
+  featHourly: '24h Forecast',
+  feat7Days: '7-Day Forecast',
+  featMap: 'Weather Map',
+  featCompare: 'Compare Cities',
+  featAqi: 'Air Quality',
+  featCyclone: 'Cyclone Tracker',
+  featAgri: 'Agri Advisory',
+  featRadar: 'Rain Radar',
+  featPrayer: 'Prayer & Sun',
+  featBmdSignals: 'BMD Signals',
+  featVoice: 'Voice Bulletin',
+  featBuyCoffee: 'Buy me Coffee',
+  featDeveloper: 'Developer Page',
+  featOfflineReport: 'Offline Report',
+  featLanguage: 'Language',
+
+  // Nearby Rain Radar
+  radarTitle: 'Nearby Rain & Sunshine Radar',
+  radarSub: 'Live scanning of surrounding districts and conditions',
+  radarRain: 'Rain Detected',
+  radarSun: 'Sunny Weather',
+  radarCloud: 'Cloud Covered',
+  radarScan: 'Scanning nearby radar...',
+  radarNoRain: 'No active rain detected in immediate surrounding areas.',
+  radarNoSun: 'Overcast skies currently dominate the surrounding region.',
+
+  // Agri & Crops
+  agriTitle: 'Agricultural Crop Weather Bulletin',
+  agriSub: 'Daily farming recommendations for rice, wheat, and seasonal crops',
+  agriHighRainWarning: 'Heavy rainfall forecasted in the next 3 days. Clear field drainage canals and avoid chemical/fertilizer spraying.',
+  agriDryAdvice: 'Weather will remain mostly dry and sunny over next 3 days. Apply scheduled light irrigation to crops as needed.',
+  listenAudio: 'Listen Voice',
+  stopAudio: 'Stop Voice',
+
+  // Air Quality Leaderboard
+  aqiRankTitle: 'Bangladesh Air Quality Rankings',
+  aqiRankSub: 'Live monitoring of cleanest & most polluted locations',
+  cleanestAirLabel: 'Cleanest Air in BD',
+  pollutedAirLabel: 'Most Polluted Air in BD',
+  dhakaAreasTitle: 'Dhaka City Zonal Air Quality',
+  dhakaAreasSub: 'Real-time air pollution levels across Dhaka neighborhoods',
+
+  // Coastal & Marine
+  marineTitle: 'Coastal Sea & Beach Conditions',
+  marineSub: 'Wave height, sea surface temperature, and tourist beach safety',
+  waveHeightLabel: 'Wave Height',
+  waterTempLabel: 'Water Temp',
+  seaConditionNormal: 'Normal & Calm',
+  seaConditionRough: 'Rough Seas - Caution',
+
+  // Sun & Prayer
+  prayerTitle: 'Sun, Moon & GPS Prayer Schedule',
+  prayerSub: 'Exact local prayer times calculated for your coordinates',
+  fajrLabel: 'Fajr',
+  dhuhrLabel: 'Dhuhr',
+  asrLabel: 'Asr',
+  maghribLabel: 'Maghrib',
+  ishaLabel: 'Isha',
+  sunriseLabel: 'Sunrise',
+  sunsetLabel: 'Sunset',
+
+  // Tourist Guide
+  touristGuideTitle: 'Tourist Spots Weather & Travel Guide',
+  touristGuideSub: 'Weather forecast and travel advice for popular travel destinations',
+  touristGuideBadge: 'Travel Guide',
+  touristTravelConditionGood: 'Pleasant weather for travel (95% Safety Score)',
+
+  // Seasonal Agri Calendar
+  agriCalendarTitle: 'Seasonal Crop & Farming Calendar',
+  agriCalendarSub: 'Farming guidelines according to Bangladesh six seasons',
+
+  // Climate History
+  climateHistoryTitle: 'Historical Climate Records & Extremes',
+  climateHistorySub: 'All-time highest and lowest temperature records in Bangladesh',
+  highestTempRecord: 'All-Time Highest Temperature',
+  lowestTempRecord: 'All-Time Lowest Temperature',
+  highestTempLocation: 'Rajshahi District (1972)',
+  lowestTempLocation: 'Tetulia, Panchagarh (2018)',
+
+  // BMD Signal Modal
+  bmdSignalsModalTitle: 'BMD Port Warning Signals Guide (Signals 1-10)',
+  bmdSignalsModalSub: 'Bangladesh Meteorological Department Official Marine Guideline',
+
+  // Weather voice
+  voiceBroadcastDesc: 'Voice Weather Broadcast',
+  voiceBroadcastBtn: 'Listen Voice',
+
+  // App Icon Download
+  downloadAppIconTitle: 'Download App Icon / Logo',
+  downloadAppIconDesc: 'Save the official WeatherGlobe icon in PNG or SVG vector format',
+  downloadPngBtn: 'Download PNG Icon',
+  downloadSvgBtn: 'Download SVG Vector',
+  // Theme Colors
+  themeColorsTitle: 'App Theme Colors (10 Themes)',
+  themeColorsDesc: 'Choose your preferred color theme to customize the entire app UI',
+};
+
+

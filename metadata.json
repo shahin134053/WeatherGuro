@@ -1,0 +1,8 @@
+{
+  "name": "WeatherGlobe",
+  "description": "Bangladesh-First Global Weather Application with 50-language support, GPS location, live forecasts, interactive map, and alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
